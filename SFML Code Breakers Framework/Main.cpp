@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-#include "GameMain.h"
+#include "GameCore\GameMain.h"
 
 unsigned int	GAME_WITDH	= 800;
 unsigned int	GAME_HEIGHT = 600;

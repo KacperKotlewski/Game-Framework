@@ -2,7 +2,7 @@
 
 #include <SFML\Graphics.hpp>
 
-#include "Util\Input.h"
+#include "..\GameCore\Input.h"
 
 class Game;
 

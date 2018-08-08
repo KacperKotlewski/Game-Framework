@@ -4,10 +4,10 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
-#include "Util\FPScounter.h"
-#include "Util\Input.h"
-#include "Util\Ticks.h"
-#include "YourGame.h"
+#include "FPScounter.h"
+#include "Input.h"
+#include "Ticks.h"
+#include "..\Your\YourGame.h"
 
 class Game
 {

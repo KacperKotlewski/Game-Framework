@@ -1,0 +1,8 @@
+0.2.0:
+	-remake file structure (add "Your" floder and "GameCore")
+0.1.7 and after:
+	-tick rate
+	-inputs: keyboard; mouse
+	-fps counter
+	-deltatime lib
+	-game loop
