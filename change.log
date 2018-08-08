@@ -1,3 +1,6 @@
+0.2.1:
+	-added resource menager and resource holder
+	-modify random.h to get float and int value
 0.2.0:
 	-added pseudo-random number generator, SeedSequence
 	-remake file structure (add "Your" folder and "GameCore")

@@ -28,6 +28,9 @@
     <Filter Include="Util">
       <UniqueIdentifier>{c3b0a2f6-a138-4655-8207-0b817ff09228}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{51ef4f00-4abb-4e8a-bc5e-f6032ec65a86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameCore\DeltaTime.h">
@@ -50,6 +53,12 @@
     </ClInclude>
     <ClInclude Include="Utility\Random.h">
       <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager\MultipleResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager\ResourceHolder.h">
+      <Filter>ResourceManager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

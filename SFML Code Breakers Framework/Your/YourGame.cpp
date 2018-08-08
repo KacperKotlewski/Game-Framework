@@ -12,6 +12,7 @@ YourGame::~YourGame()
 // logic update (player input or something)
 void YourGame::m_LogicUpdate(sf::Time deltaTime)
 {
+
 }
 
 // when tick is updated (grass start growing or something)

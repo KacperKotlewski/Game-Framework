@@ -1,8 +1,9 @@
-//v 0.2.0
+//v 0.2.1
 
 #include <iostream>
 
 #include "GameCore\GameMain.h"
+#include "Utility\Random.h"
 
 unsigned int	GAME_WITDH	= 800;
 unsigned int	GAME_HEIGHT = 600;
