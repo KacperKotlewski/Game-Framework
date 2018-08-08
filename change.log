@@ -1,0 +1,6 @@
+0.1.7:
+	-tick rate
+	-inputs: keyboard; mouse
+	-fps counter
+	-deltatime lib
+	-game loop
