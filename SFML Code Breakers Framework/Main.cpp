@@ -1,4 +1,4 @@
-//v 0.1.7
+//v 0.2.0
 
 #include <iostream>
 
@@ -11,9 +11,10 @@ std::string		GAME_NAME	= "Game";
 
 int main()
 {
-
+	//*
 	Game game(GAME_WITDH, GAME_HEIGHT, GAME_NAME, GAME_TICK);
 	game.Run();
+	//*/
 
 	return 0;
 }

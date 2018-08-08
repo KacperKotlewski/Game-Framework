@@ -25,6 +25,9 @@
     <Filter Include="Your">
       <UniqueIdentifier>{ca2f693d-b645-4b91-a96d-27545b22c981}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{c3b0a2f6-a138-4655-8207-0b817ff09228}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameCore\DeltaTime.h">
@@ -44,6 +47,9 @@
     </ClInclude>
     <ClInclude Include="Your\YourGame.h">
       <Filter>Your</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Random.h">
+      <Filter>Util</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +73,9 @@
     </ClCompile>
     <ClCompile Include="Your\YourGame.cpp">
       <Filter>Your</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Random.cpp">
+      <Filter>Util</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

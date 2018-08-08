@@ -1,6 +1,7 @@
 0.2.0:
-	-remake file structure (add "Your" floder and "GameCore")
-0.1.7 and after:
+	-added pseudo-random number generator, SeedSequence
+	-remake file structure (add "Your" folder and "GameCore")
+before:
 	-tick rate
 	-inputs: keyboard; mouse
 	-fps counter
