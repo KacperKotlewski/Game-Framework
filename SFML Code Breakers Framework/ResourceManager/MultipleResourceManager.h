@@ -48,13 +48,13 @@ public:
 		}
 	}
 
-private:
 	static std::unordered_map<std::string, std::shared_ptr<Resource>> resourcePtrs;
 
+private:
 	std::string m_folder;
 	std::string m_extension;
 };
 
 template<typename Resource>
-std::unordered_map<std::string, std::shared_ptr<Resource>> MultipleResourceManager::resourcePtrs;
+std::unordered_map<std::string, std::shared_ptr<Resource>> MultipleResourceManager<Resource>::resourcePtrs;
 

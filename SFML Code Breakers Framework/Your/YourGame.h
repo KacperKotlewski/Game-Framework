@@ -18,6 +18,5 @@ public:
 	void m_FrameUpdate(sf::RenderWindow & render);
 
 private:
-	ResourceHolder res
 };
 
