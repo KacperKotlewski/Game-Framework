@@ -13,51 +13,78 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Util">
+    <Filter Include="GameCore">
       <UniqueIdentifier>{cd428e34-8813-4847-80f7-6d77287053d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCore\Headers">
+      <UniqueIdentifier>{f9ecce0c-e773-4107-8b42-f8f971ba7122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCore\Source">
+      <UniqueIdentifier>{2c46f81a-cdd4-4137-be9d-4cd4566ea1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Your">
+      <UniqueIdentifier>{ca2f693d-b645-4b91-a96d-27545b22c981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{c3b0a2f6-a138-4655-8207-0b817ff09228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{51ef4f00-4abb-4e8a-bc5e-f6032ec65a86}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameMain.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="GameCore\DeltaTime.h">
+      <Filter>GameCore\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="Util\FPScounter.h">
+    <ClInclude Include="GameCore\FPScounter.h">
+      <Filter>GameCore\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore\GameMain.h">
+      <Filter>GameCore\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore\Input.h">
+      <Filter>GameCore\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore\Ticks.h">
+      <Filter>GameCore\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Your\YourGame.h">
+      <Filter>Your</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Random.h">
       <Filter>Util</Filter>
     </ClInclude>
-    <ClInclude Include="Util\DeltaTime.h">
-      <Filter>Util</Filter>
+    <ClInclude Include="ResourceManager\MultipleResourceManager.h">
+      <Filter>ResourceManager</Filter>
     </ClInclude>
-    <ClInclude Include="Util\Input.h">
-      <Filter>Util</Filter>
-    </ClInclude>
-    <ClInclude Include="Util\Ticks.h">
-      <Filter>Util</Filter>
-    </ClInclude>
-    <ClInclude Include="YourGame.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="ResourceManager\ResourceHolder.h">
+      <Filter>ResourceManager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GameMain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Util\FPScounter.cpp">
-      <Filter>Util</Filter>
+    <ClCompile Include="GameCore\DeltaTime.cpp">
+      <Filter>GameCore\Source</Filter>
     </ClCompile>
-    <ClCompile Include="Util\DeltaTime.cpp">
-      <Filter>Util</Filter>
+    <ClCompile Include="GameCore\FPScounter.cpp">
+      <Filter>GameCore\Source</Filter>
     </ClCompile>
-    <ClCompile Include="Util\Input.cpp">
-      <Filter>Util</Filter>
+    <ClCompile Include="GameCore\GameMain.cpp">
+      <Filter>GameCore\Source</Filter>
     </ClCompile>
-    <ClCompile Include="Util\Ticks.cpp">
-      <Filter>Util</Filter>
+    <ClCompile Include="GameCore\Input.cpp">
+      <Filter>GameCore\Source</Filter>
     </ClCompile>
-    <ClCompile Include="YourGame.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="GameCore\Ticks.cpp">
+      <Filter>GameCore\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Your\YourGame.cpp">
+      <Filter>Your</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Random.cpp">
+      <Filter>Util</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

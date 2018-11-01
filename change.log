@@ -1,4 +1,13 @@
-0.1.7:
+0.2.2:
+	-bug fix
+	-prepare files to push into GitHub
+0.2.1:
+	-added resource menager and resource holder
+	-modify random.h to get float and int value
+0.2.0:
+	-added pseudo-random number generator, SeedSequence
+	-remake file structure (add "Your" folder and "GameCore")
+before:
 	-tick rate
 	-inputs: keyboard; mouse
 	-fps counter
